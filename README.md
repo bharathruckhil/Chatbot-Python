@@ -4,28 +4,22 @@ This repository contains code related to the tutorial on [building a Python chat
 
 Create and activate a [virtual environment](https://bharathruckhil.framer.website/), then install the necessary dependencies:
 
-```sh
-$ python -m venv venv
-$ source venv/bin/activate
-(venv) $ python -m pip install -r requirements.txt
-```
 
-Then you can navigate into the folder `source_code_final/` and train and start the interactive command-line interface chatbot by running `bot.py`:
+Chatbot-Python 🤖
+A simple chatbot built using Python that responds to user inputs based on predefined patterns. This project demonstrates basic Natural Language Processing (NLP) using the NLTK library.
 
-```sh
-(venv) $ cd source_code_final
-(venv) $ python bot.py
-```
+Features:
+✅ Rule-based responses using nltk.chat.util
+✅ Simple and interactive CLI chatbot
+✅ Easy to customize with new patterns
 
-After training, you'll see an interactive prompt that you can chat with:
+Tech Stack:
+Python 🐍
+NLTK (Natural Language Toolkit)
+Usage:
+1️⃣ Clone the repository
+2️⃣ Install dependencies (pip install nltk)
+3️⃣ Run the chatbot script
 
-```text
-> hi
-🪴 Welcome, friend 🤗
-> thanks for visiting
-🪴 
-```
+Perfect for beginners learning chatbot development! 🚀
 
-The bot will learn from the replies you give and improve its accuracy. You can quit the interactive prompt by typing any of the `exit_conditions` defined in `bot.py`.
-
-You'll find the code for each step of the tutorial in a separate folder. The folders also include a SQLite database that contains the different phases of training at each step. Because of this, you can inspect the project at different stages and notice how it evolves when you add more data and interactions.
