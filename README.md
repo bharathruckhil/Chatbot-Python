@@ -1,8 +1,8 @@
 # ChatterBot: Build a Chatbot with Python
 
-This repository contains code related to the tutorial on [building a Python chatbot with ChatterBot](https://realpython.com/build-a-chatbot-python-chatterbot/).
+This repository contains code related to the tutorial on [building a Python chatbot with ChatterBot]((https://bharathruckhil.framer.website/)).
 
-Create and activate a [virtual environment](https://realpython.com/python-virtual-environments-a-primer/), then install the necessary dependencies:
+Create and activate a [virtual environment](https://bharathruckhil.framer.website/), then install the necessary dependencies:
 
 ```sh
 $ python -m venv venv
@@ -22,20 +22,8 @@ After training, you'll see an interactive prompt that you can chat with:
 ```text
 > hi
 🪴 Welcome, friend 🤗
-> thanks for the green welcome
-🪴 I let you
-> you let me be here?
-🪴 It's a monsters!
-> did you mean monstera?
-🪴 The leafs that she had are getting dryer and dryer. But she’s also growing plenty of new ones
-> who?
-🪴 Do raindrops touch their leaves?
-> very philosophical!
-🪴 Lol
-> ;)
-🪴 I don't grow any crop at home
-> no crops in pots
-🪴 Ah, gotcha!
+> thanks for visiting
+🪴 
 ```
 
 The bot will learn from the replies you give and improve its accuracy. You can quit the interactive prompt by typing any of the `exit_conditions` defined in `bot.py`.
